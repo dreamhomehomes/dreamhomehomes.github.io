@@ -7,6 +7,7 @@
   <style>
   #mistakes { width: 259px; height: 224px; padding: 0.5em; }
   #headless { width: 259px; height: 224px; padding: 0.5em; }
+  #vulture { width: 259px; height: 224px; padding: 0.5em; }
   </style>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -16,6 +17,9 @@
   } );
   $( function() {
     $( "#headless" ).draggable();
+  } );
+  $( function() {
+    $( "#vulture" ).draggable();
   } );
   </script>
 
@@ -39,6 +43,7 @@ body {
   <div id="screen">
     <img src="Mistakes2.jpg" class="drag-image" id="mistakes" />
     <img src="Headless.jpg" class="drag-image" id="headless" />
+    <img src="Headless.jpg" class="drag-image" id="vulture" />
 
   </div>
 </body>
