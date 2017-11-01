@@ -5,13 +5,17 @@
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <style>
-  #draggable { width: 259px; height: 224px; padding: 0.5em; }
+  #mistakes { width: 259px; height: 224px; padding: 0.5em; }
+  #headless { width: 259px; height: 224px; padding: 0.5em; }
   </style>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
   $( function() {
-    $( "#draggable" ).draggable();
+    $( "#mistakes" ).draggable();
+  } );
+  $( function() {
+    $( "#headless" ).draggable();
   } );
   </script>
 
@@ -33,8 +37,8 @@ body {
 
 <div class="container">
   <div id="screen">
-    <img src="Mistakes2.jpg" class="drag-image" id="draggable" />
-    <img src="Headless.jpg" class="drag-image" id="draggable" />
+    <img src="Mistakes2.jpg" class="drag-image" id="mistakes" />
+    <img src="Headless.jpg" class="drag-image" id="headless" />
 
   </div>
 </body>
