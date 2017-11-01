@@ -25,10 +25,18 @@ body {
   <script src="js/jquery-ui-1.8.16.custom.min.js" type="type/javascript"></script>
   <script type="text/javascript">
       $(function() {
-          $( ".drag" ).draggable();
+          $( "Mistake.jpg" ).draggable();
+          revert: true,
+          opacity: 0.7,
+          cursor: "move",
+          cursorAt: {
+            cursor: "crosshair",
+            top: -5,
+            left: -5
+          }
       });
   </script>
-  <div id="aboutBox" class="boxLook boxBg drag"><img src="Mistakes.jpg"></div>
+  <div id="aboutBox" class="boxLook boxBg drag"></div>
 
 </body>
 </html>
