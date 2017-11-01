@@ -20,7 +20,15 @@ body {
 
 <body>
 
-  <img src="Mistakes2.jpg" alt="Mistakes" style="width:250px;height:224px;">
+  <img src="Mistakes2.jpg" alt="Mistakes" style="width:250px;height:224px;" id="draggable"/>
+  <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+  <script src="js/jquery-ui-1.8.16.custom.min.js" type="type/javascript"></script>
+  <script type="text/javascript">
+      $(function() {
+          $( ".drag" ).draggable();
+      });
+  </script>
+  <div id="aboutBox" class="boxLook boxBg drag"><img src="Mistakes.jpg"></div>
 
 </body>
 </html>
