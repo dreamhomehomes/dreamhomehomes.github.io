@@ -1,38 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>DreamHomeHomes</title>
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <title>DreamHomeHomes</title>
+
+  <link rel="stylesheet" type="text/css" href="/css/backgroundstyle.css">
+  <script src="/js/bg.js"></script>
+  <img src="/images/Regret.jpg" id="bg">
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
+
   <style>
   #mistakes { width: 259px; height: 224px; padding: 0.5em; }
   #headless { width: 259px; height: 224px; padding: 0.5em; }
   #vulture { width: 259px; height: 224px; padding: 0.5em; }
   </style>
+
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#mistakes" ).draggable({cursor: "move"});
-  } );
-  $( function() {
-    $( "#headless" ).draggable({cursor: "move"});
-  } );
-  $( function() {
-    $( "#vulture" ).draggable({cursor: "move"});
-  } );
-  </script>
+  <script src="/js/draggableroadkill.js"></script>
 
 <style>
-
-body {
-
-        background-image: url("Regret.JPG");
-        background-repeat: no-repeat;
-        background-size: cover;
-}
-
-}
 </style>
 
 </head>
@@ -41,9 +29,9 @@ body {
 
 <div class="container">
   <div id="screen">
-    <img src="Mistakes2.jpg" class="drag-image" style="cursor: move" id="mistakes" />
-    <img src="Headless.jpg" class="drag-image" style="cursor: move" id="headless" />
-    <img src="Vulture.jpg" class="drag-image" style="cursor: move" id="vulture" />
+    <img src="/images/Mistakes2.jpg" class="drag-image" style="cursor: move" id="mistakes" />
+    <img src="/images/Headless.jpg" class="drag-image" style="cursor: move" id="headless" />
+    <img src="/images/Vulture.jpg" class="drag-image" style="cursor: move" id="vulture" />
 
   </div>
 </body>
