@@ -1,6 +1,7 @@
 $(document).ready(function() {
-  $( "#set div" ).draggable({
-    stack: "set div"
-    cursor: "move"
+  $( '#mistakes, #headless, #vulture' ).draggable({
+    cursor: "move",
+    stack: '#mistakes, #headless, #vulture'
   });
 } );
+
