@@ -1,7 +1,7 @@
-$(document).ready(function() {
+(document).ready(function() {
   $( '#mistakes, #headless, #vulture' ).draggable({
     cursor: "move",
-    stack: '#mistakes, #headless, #vulture'
+    stack: '#mistakes, #headless, #vulture',
+    containment: "document"
   });
 } );
-
