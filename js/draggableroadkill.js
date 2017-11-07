@@ -2,7 +2,7 @@
   $( '#mistakes, #headless, #vulture' ).draggable({
     cursor: "move",
     stack: '#mistakes, #headless, #vulture',
-    containment: "#containmentwrapper"
+    containment: "#containmentwrapper",
     scroll: false
   });
 } );
