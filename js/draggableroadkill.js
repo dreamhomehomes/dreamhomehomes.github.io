@@ -3,6 +3,5 @@
     cursor: "move",
     stack: '#mistakes, #headless, #vulture',
     containment: "#containmentwrapper",
-    scroll: false
   });
 } );
