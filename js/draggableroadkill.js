@@ -3,3 +3,5 @@ $(document).ready(function() {
     cursor: "move",
     stack: '#mistakes, #headless, #vulture',
     containment: "#containmentwrapper"
+  });
+} );
