@@ -16,7 +16,6 @@ body,html {
 }
 
 .containmentwrapper {
-     float: left;
      position: absolute;
      left: 0px;
      top: 0px;
